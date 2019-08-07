@@ -1,0 +1,43 @@
+h1 {
+    background-color: green; 
+    text-align: center; 
+    color: white; 
+}
+
+.container {
+    box-sizing: border-box;
+}
+
+table {
+   border: 1px solid grey; 
+   width: 95%;
+}
+
+tbody {
+    text-align: center;  
+}
+
+thead {
+    background-color: green; 
+}
+
+tbody > tr > td {
+    border: 1px solid black; 
+}
+
+tbody > tr:nth-child(even) {
+    background-color: lightgreen;  
+}
+
+tfoot { 
+    text-align: right; 
+    box-sizing: border-box; 
+}
+
+input { 
+    border: 1px solid black; 
+}
+
+.turnred { 
+    background-color: red; 
+}
